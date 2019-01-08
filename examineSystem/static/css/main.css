@@ -1,0 +1,194 @@
+*{margin:0;padding:0;}
+html,body,#app,.wrapper{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+body{
+    font-family:"Helvetica Neue",Helvetica, "microsoft yahei", arial, STHeiTi, sans-serif;
+    /* background: #f1eeee; */
+}
+a{text-decoration: none}
+.content{
+    max-width: 768px;
+    margin: 0 auto;
+    height: 100%;
+    overflow-y: auto;
+    font-size: 14px;
+}
+
+/* 切换页面动画 */
+.move-enter-active,.move-leave-active{
+    transition: opacity .5s;
+}
+.move-enter,.move-leave{
+    opacity: 0;
+}
+/* 登录页面样式 */
+
+.login-wrap .form .van-button{
+    width: 100%;
+}
+.login-wrap .form .van-field .van-cell__title{
+    max-width: 30px!important;
+}
+.login-wrap .form .van-cell__value{
+    padding-left: 10px; 
+}
+/* 组织生活更多详情 */
+.organization .van-tabs__line{
+    width: 50px;
+}
+.organization .van-tabs__wrap--scrollable .van-tab{
+    flex: 0 0 30%;
+}
+.clear{
+    clear: both;
+}
+.fontOver{
+    white-space: nowrap;    /*规定文本不换行**/
+    text-overflow: ellipsis;  /**显示省略符号来代表被修剪的文本。*/
+    overflow: hidden;
+}
+/* 组织生活详情页面 */
+.organDetails .van-cell__title span{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    width: 65%;
+    color:#282828;
+    margin-left: 80px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;   /** 多行文本溢出...*/
+    overflow: hidden; 
+  
+}
+.organDetails .van-cell__title, .van-cell__value{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;   /** 多行文本溢出...*/
+    overflow: hidden; 
+}
+/* .organDetails .van-cell{
+    position: relative;
+} */
+
+/* step条  样式 */
+.step1-content .van-step__circle{
+    background: #eee!important;
+}
+.step1-content .van-step__line{
+    background: #eee!important;
+}
+.step1-content .van-step--horizontal .van-step__title{
+    color: #aeaeae;
+}
+.f_fen .van-cell__title{ /*分类*/
+    padding-top: 7px;
+  }
+.step1-content .f_fen .van-icon{
+padding-top: 7px!important;
+}
+/* 选框标题 */
+.step1-content .van-cell__title span{
+    color: #000000;
+}
+.step1-content [class*=van-hairline]::after{
+    border: none;
+}
+/* 选框默认提示字体 */
+.step1-content .van-field__control::-webkit-input-placeholder {
+    color: #cccccc;
+}
+/* radio列表 样式 */
+/* .van-radio .van-icon-checked {
+    color: #f00b0b!important;
+} */
+/* 首页图标样式 */
+.f_picture span.van-progress__portion.van-progress__portion--with-pivot{
+    background: #e60000!important;
+}
+.f_picture .van-progress__pivot{
+    background: #e60000!important;
+}
+.f_picture .van-progress{
+    background: #e4e4e4!important;
+}
+/* step4  */
+.step4 .van-cell:not(:last-child)::after{
+    border:none;
+}
+.step4 [class*=van-hairline]::after{
+    border:none;
+}
+.step4 .van-field .van-cell__title{
+    max-width: 50px;
+}
+.step4 .van-icon-photograph::before{
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.step3 .van-cell__value .van-cell__value--alone{
+    background: #fff;
+}
+.step3 .f_text .van-field__control,.step3 .van-field__clear, .van-field__icon{
+    background: #fff;
+    padding: 5px 0 5px 10px;
+    height: 35px!important;
+    /* line-height:  */
+ }
+.step3 .van-field__clear, .van-field__icon{
+    height: 35px;
+     padding: 5px;
+    margin-right: 0;
+}
+.step3 .van-field__icon .van-icon{
+    padding: 5px 10px 0 0; 
+ } 
+.step3 .van-hairline--top-bottom::after{
+    border: 0;
+ } 
+.step3 .f_text .van-field__control{
+    width: 90%!important;
+}
+.step3 .f_text .van-cell:not(:last-child)::after{
+    border:none;
+}
+ .step2 .f_canjia .van-cell__title{
+     margin-top: 6px;
+ }
+ .step2 .f_canjia .van-icon{
+    padding-top: 5px!important;
+}
+.step2 [class*=van-hairline]::after{
+    border: none;
+}
+.step4 .upload-demo .el-upload-list__item{
+     width: 70px!important;
+     float: left;
+     margin: 10px 5px;
+ }
+ .step4 .van-cell{
+     padding: 10px 5px!important;
+ }
+ .step4 .upload-demo .el-icon-close-tip{
+    display: none;
+ }
+ /* 所有的必填*号位置 */
+ .van-cell--required::before{
+     top: 12px;
+ }
+ .step1-content .f_fen.van-cell--required::before{
+    top: 20px!important;
+}
+.f_canjia.van-cell--required::before{
+    top: 18px!important;
+}
+/* step头部样式start */
+
+
+
+/* step头部样式end */
