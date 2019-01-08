@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body,
+#app,
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: #353639;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "microsoft yahei", arial, STHeiTi,
+        sans-serif;
+}
+a {
+    text-decoration: none;
+    color:#4A90e2;
+}
+textarea{
+    resize: none!important;
+}
+.content {
+    background: none repeat scroll 0 0 #fff;
+    position: absolute;
+    left: 250px;
+    right: 0;
+    top: 88px;
+    bottom: 0;
+    width: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+.crumbs {
+    margin-bottom: 20px;
+}
+.pagination {
+    margin: 20px 0;
+    text-align: right;
+}
+.plugins-tips {
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+.el-button + .el-tooltip {
+    margin-left: 10px;
+}
+
+.el-table tr:hover {
+    background: #f6faff;
+}
+.mgb20 {
+    margin-bottom: 20px;
+}
+
+.move-enter-active,
+.move-leave-active {
+    transition: opacity 0.5s;
+}
+.move-enter,
+.move-leave {
+    opacity: 0;
+}
+/*BaseForm*/
+.form-box {
+    width: 600px;
+}
+.form-box .line {
+    text-align: center;
+}
+.el-time-panel__content::after,
+.el-time-panel__content::before {
+    margin-top: -7px;
+}
+/*Readme*/
+.ms-doc .el-checkbox__input.is-disabled + .el-checkbox__label {
+    color: #333;
+    cursor: pointer;
+}
+/*Upload*/
+.pure-button {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+}
+.g-core-image-corp-container .info-aside {
+    height: 45px;
+}
+.el-upload--text {
+    background-color: #fff;
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 360px;
+    height: 180px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.el-upload--text .el-icon-upload {
+    font-size: 67px;
+    color: #97a8be;
+    margin: 40px 0 16px;
+    line-height: 50px;
+}
+.el-upload--text {
+    color: #97a8be;
+    font-size: 14px;
+    text-align: center;
+}
+.el-upload--text em {
+    font-style: normal;
+}
+/*VueEditor*/
+.ql-container {
+    min-height: 400px;
+}
+.ql-snow .ql-tooltip {
+    transform: translateX(117.5px) translateY(10px) !important;
+}
+.editor-btn {
+    margin-top: 20px;
+}
+/* 类似头部面包屑 start */
+.headTagLy {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 4px;
+}
+.headTagLy .tag {
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+    color: #353639;
+    font: normal 16px/20px Microsoft YaHei, Arial;
+    float: left;
+    max-width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: bold;
+}
+.headTagLy .tag:before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    margin-right: 10px;
+    width: 2px;
+    background: #e91b1b;
+    vertical-align: bottom;
+}
+/* 类似头部面包屑 end */
+/* 公共panel-article Start */
+.ms-articleLy {
+    display: block;
+    width: 100%;
+    margin: 10px auto 0px;
+    border-radius: 4px;
+    padding-bottom: 10px;
+}
+/* 公共panel中的标题样式 */
+.ms-articleLy .titleLy{
+    margin: 0;
+    padding: 15px;
+    color: #353639;
+    font: normal 16px/20px Microsoft YaHei, Arial;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* 公共panel-article End */
+/* 清除浮动 */
+.clear,.cle{
+    clear: both;
+}
+/* 信息集边框阴影 */
+.shadowLy {
+    -webkit-box-shadow: #ccc 0px 0px 10px;
+    -moz-box-shadow: #ccc 0px 0px 10px;
+    box-shadow: #ccc 0px 0px 10px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float:right;
+}
+
+/*改变字体颜色*/
+.__vev_calendar-wrapper .cal-wrapper .cal-body .dates .item .date-num{
+    color: #000000 !important;
+}
+
+/* table的公共样式 */
+.el-table th, .el-table tr > th{
+    background:#ececec;
+}
+.el-table {
+    position: relative;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: 100%;
+    max-width: 100%;
+    font-size: 14px;
+    color: #606266;
+    border: solid 1px #ececec;
+    border-radius: 5px;
+    /* border: #ccc solid 1px; */
+}
+/* 自动考评 督查评价 input样式*/
+.zuzhi .el-input--suffix .el-input__inner,.f_title .el-form-item__content{
+    width: 450px;
+}
+.resTime .el-form-item__content{
+    margin-left: 20px!important;
+}
+.resTime .el-date-editor.el-input,.resTime .el-input__inner{
+    width: 150px;
+}
+.el-form-item__label{
+    font-size: 16px!important;
+}
+.f_input .el-form-item__label{
+    font-size: 14px!important;
+}
+.f_input .el-input__inner{
+    width: 150px;
+    height: 30px;
+}
+/*操作部分图片样式*/
+.f_box {
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    justify-content: center;
+}
+.f_box img{
+    width: 20px;
+    height: 20px;
+    padding: 0 3px;
+    cursor: pointer;
+}
+/* 自动考评  点击？弹出框 */
+.el-popover p{
+    margin-bottom: 10px;
+    color: #97a8be;
+}
+.el-popover p label{
+    color: #353639;
+}

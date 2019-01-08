@@ -1,0 +1,68 @@
+/* 树的样式改变 */
+.el-tree-node__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items:center;
+    justify-content: center;/*水平居中*/
+    width:94%;
+    min-height: 56px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin-bottom: 14px;
+    border-radius: 5px;
+}
+.el-tree-node>.el-tree-node__children{
+    width:96%;
+}
+.el-tree-node {
+    /* white-space: nowrap; */
+    white-space: normal;
+}
+.el-tree-node__label {
+    margin-left:2%;
+    display:inline-block;
+    font-size: 14px;
+    width: 88%;
+}
+.el-tree-node .is-expanded{
+    
+}
+.el-tree-node{
+    margin-top:10px;
+}
+/* 任务交办  --新建任务--选择下发单位弹框样式修改 */ 
+.create div.f_lowerWord{
+    /* width: 80%!important;
+    margin: 0 auto; */
+    /* overflow: none!important; */
+}
+.create div.f_lowerWord .el-dialog{
+    width: 35%;
+}
+.create div.f_lowerWord .el-tree-node__content{
+    min-height:30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.create div.f_lowerWord .el-tree-node{
+    border-left: none;
+}
+.create div.f_lowerWord .el-tree-node__content .el-tree-node .is-expanded .is-focusable:nth-last-child(n){
+    border-bottom: none;
+}
+.create div.f_lowerWord .el-tree-node .is-expanded .is-focusable:nth-last-child(n){
+    border-bottom: none;
+}
+/* 弹窗标题样式start */
+.el-dialog__header{  
+    padding: 0px 20px 10px;
+}
+.el-dialog__body {
+    padding: 0px 20px;
+    color: #606266;
+    font-size: 14px;
+}
+/* 弹窗标题样式end */

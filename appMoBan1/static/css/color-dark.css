@@ -1,0 +1,41 @@
+.header{
+    background-color: #242f42;
+}
+.login-wrap{
+    background: #324157;
+}
+.plugins-tips{
+    background: #eef1f6;
+}
+.plugins-tips a{
+    color: #20a0ff;
+}
+.el-upload--text em {
+    color: #20a0ff;
+}
+.pure-button{
+    background: #20a0ff;
+}
+
+
+
+/**表单字体居中并只显示2行，多余的省略号*/
+.el-table .cell, .el-table th div, .el-table--border td:first-child .cell, .el-table--border th:first-child .cell{
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    max-height: 50px;
+}
+/*分页*/
+.pagination{
+    line-height: 30px;
+}
+.pagination .el-pagination{
+    float: right;
+}
+
+ul,ul li{
+    list-style: none;
+}
