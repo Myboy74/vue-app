@@ -10,6 +10,7 @@
         </form>
         <van-list v-model="loading" :finished="finished"
           finished-text="没有更多了" @load="onLoad">
+          <!-- offset	滚动条与底部距离小于 offset 时触发load事件	Number	300 -->
          <ul class="ul-visitor" v-show="noVisitorlist.length">
           <li v-for="(val,ind) in noVisitorlist" :key="ind" @click="visitDetail(val)">
             <p class="font17" v-if="val.name">{{val.name}}</p>
